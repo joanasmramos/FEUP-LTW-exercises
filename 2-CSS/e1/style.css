@@ -1,0 +1,46 @@
+body > header {
+    background-color: #046DD5;
+    font-family: Verdana;
+    font-size: 0.73rem;
+    margin: 0.1em;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+body > header a {
+    color: white;
+}
+
+body > header > h1 {
+    background-color:purple;
+    margin: 0.1em;
+    margin-top: 0.5em;
+}
+
+body > header > h2 {
+    background-color: darkgreen;
+    margin: 0.1em;
+    font-size: 1em;
+    padding: 0.1em;
+    font-weight: bold;
+}
+
+div#signup {
+    /* background-color: crimson; */
+    margin: 0.1em;
+}
+
+body > header > div a:first-child {
+    background-color: red;
+    padding-right: 1em;
+    border-right: solid;
+    border-right-width: thin;
+}
+
+body > header > div a:last-child {
+    background-color:purple;
+    padding-left: 1em;
+}
